@@ -126,7 +126,7 @@ http://127.0.0.1:8000/api/v1/posts/1/
 POST-запрос на адресу с полями "post" и "text", в Headers указать token пользователя:
 
 ```
-http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+http://127.0.0.1:8000/api/v1/posts/1/comments/
 ```
 
 Запрос:
@@ -151,7 +151,7 @@ http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
 Get-запрос по адресу, в Headers указать token пользователя:
 
 ```
-http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+http://127.0.0.1:8000/api/v1/posts/1/comments/
 ```
 
 Ответ:
